@@ -1,6 +1,6 @@
 
 # News-Showcase
-A React, Redux, and Redux Saga web application with API intigration
+A React, Redux, and Redux Saga web application with News API intigration to showcase the top news.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
