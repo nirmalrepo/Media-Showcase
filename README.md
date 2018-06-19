@@ -1,5 +1,5 @@
 
-# Media-Showcase
+# News-Showcase
 A React, Redux, and Redux Saga web application with API intigration
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
