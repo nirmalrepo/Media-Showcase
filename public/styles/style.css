@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, Sans-Serif, sans-serif;
+    background: gray url(../images/background_01.jpg) no-repeat fixed left top !important;
+    background-size: cover;
+  }
+  
+  .title {
+    padding: 2px;
+    text-overflow-ellipsis: overflow;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .selected-image, .select-video {
+    height: 500px;
+  }
+  
+  .selected-image img, .select-video video {
+    width: 100%;
+    height: 450px;
+  }
+  
+  .image-thumbnail, .video-thumbnail {
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+    overflow-y: hidden;
+  }
+  
+  .image-thumbnail img, .video-thumbnail video {
+    width: 70px;
+    height: 70px;
+    padding: 1px;
+    border: 1px solid grey;
+  }
+ 
+.caption {
+  word-wrap: break-word;
+}
+.article-header {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: justify;
+
+}
+p.source {
+  margin: 10px 0 0;
+  color: gray;
+}
+
