@@ -9,3 +9,8 @@ export const searchAnyNewsAction = (payload) => ({
   payload
 });
 
+export const searchSourceNewsAction = (payload) => ({
+  type: types.SEARCH_SOURCES_NEWS_REQUEST,
+  payload
+});
+

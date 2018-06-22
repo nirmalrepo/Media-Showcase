@@ -10,7 +10,7 @@ import NewsPage from './components/NewsPage';
 // IndexRoute maps HomePage component to the default route
 export default (
   <Route path="/" component={App}> 
-    <IndexRoute component={HomePage} />
+    <IndexRoute component={NewsPage} />
     <Route path="news" component={NewsPage} />
   </Route>
 );
