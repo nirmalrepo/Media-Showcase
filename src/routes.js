@@ -1,7 +1,6 @@
 import React from 'react'; 
 import { Route, IndexRoute } from 'react-router';
 import App from './App';
-import HomePage from './components/HomePage';
 import NewsPage from './components/NewsPage';
 
 // Map components to different routes.

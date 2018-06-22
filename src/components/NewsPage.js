@@ -29,13 +29,13 @@ class NewsPage extends Component {
   handleSearch = () => {
     const { searchTopNewsAction, searchAnyNewsAction } = this.props;
     let searchText = this.state.searchText;
-      (searchText == "") ? searchTopNewsAction() : searchAnyNewsAction(searchText)
+      (searchText === "") ? searchTopNewsAction() : searchAnyNewsAction(searchText)
   }
 
   onCategoryClick = (value) => {
     const { searchTopNewsAction, searchSourceNewsAction } = this.props;
     this.setState({searchText: ""});
-    (value == sources.ALL) ? searchTopNewsAction() : searchSourceNewsAction(value)
+    (value === sources.ALL) ? searchTopNewsAction() : searchSourceNewsAction(value)
   }
 
   render() {
