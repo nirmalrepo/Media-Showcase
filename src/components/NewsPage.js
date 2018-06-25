@@ -75,7 +75,3 @@ const mapDispatchToProps = dispatch => ({
 export default compose(
   connect(mapStateToProps, mapDispatchToProps),
 )(NewsPage)
-
-// connect method from react-router connects the component with redux store
-// export default connect(
-//   mapStateToProps)(NewsPage);
